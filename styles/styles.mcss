@@ -1,0 +1,11 @@
+BrowserDirectory {
+  span.title {
+    font-weight: bold
+  }
+}
+
+BrowserFile {
+  -selected {
+    color: green
+  }
+}

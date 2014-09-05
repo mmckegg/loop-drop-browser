@@ -1,0 +1,29 @@
+{
+  "name": "loop-drop-browser",
+  "version": "0.0.0",
+  "description": "Display list of objects in Loop Drop project and allow selection.",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/loop-drop-browser.git"
+  },
+  "author": "Matt McKegg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmckegg/loop-drop-browser/issues"
+  },
+  "homepage": "https://github.com/mmckegg/loop-drop-browser",
+  "dependencies": {
+    "brfs": "^1.2.0",
+    "mercury": "^6.0.2",
+    "micro-css": "^0.4.2"
+  }
+}
